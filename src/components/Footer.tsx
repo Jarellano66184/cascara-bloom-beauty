@@ -11,10 +11,10 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-accent rounded-full flex items-center justify-center">
                 <span className="text-accent-foreground font-bold text-sm">R</span>
               </div>
-              <span className="font-serif text-2xl font-semibold">Redeem</span>
+              <span className="font-serif text-2xl font-semibold">Redëm</span>
             </div>
             <p className="text-cream/80 leading-relaxed">
-              Transforming waste into beauty with 100% natural cascara skincare. 
+              Transforming waste into beauty with 100% natural cascara skincare.
               Sustainable, effective, and ethically sourced.
             </p>
             <div className="flex space-x-4">
@@ -69,7 +69,7 @@ const Footer = () => {
         
         <div className="border-t border-cream/20 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-cream/60 text-sm">
-            © 2024 Redeem Skincare. All rights reserved.
+            © 2024 Redëm Skincare. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-cream/60 mt-4 md:mt-0">
             <a href="#" className="hover:text-cream transition-colors">Privacy Policy</a>

@@ -8,7 +8,7 @@ const Header = () => {
           <div className="w-8 h-8 bg-gradient-accent rounded-full flex items-center justify-center">
             <span className="text-accent-foreground font-bold text-sm">R</span>
           </div>
-          <span className="font-serif text-2xl font-semibold text-foreground">Redeem</span>
+          <span className="font-serif text-2xl font-semibold text-foreground">Redëm</span>
         </div>
         
         <div className="hidden md:flex items-center space-x-8">

@@ -47,7 +47,7 @@ const Sustainability = () => {
             <span className="text-forest"> Difference</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-balance">
-            At Redeem, we're not just creating skincare - we're redefining what beauty means 
+            At Redëm, we're not just creating skincare - we're redefining what beauty means 
             in a sustainable world. Every product tells a story of transformation and responsibility.
           </p>
         </div>
