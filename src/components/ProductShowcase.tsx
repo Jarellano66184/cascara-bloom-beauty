@@ -1,8 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import cleanserImage from "@/assets/cleanser-product.jpg";
-import moisturizerImage from "@/assets/moisturizer-product.jpg";
+// Using actual Redëm product photos
 
 const products = [
   {
@@ -11,7 +10,7 @@ const products = [
     description: "A gentle yet effective cleanser infused with antioxidant-rich cascara extract. Removes impurities while nourishing your skin with natural polyphenols and chlorogenic acids.",
     price: "$20",
     size: "3 oz",
-    image: cleanserImage,
+    image: "/lovable-uploads/87bd30eb-1a0f-4100-8fe3-7b2bbf4070a1.png",
     benefits: ["Deep cleansing", "Antioxidant protection", "Gentle on sensitive skin", "Anti-inflammatory"],
     featured: true
   },
@@ -21,7 +20,7 @@ const products = [
     description: "Rich, hydrating moisturizer powered by cascara's natural compounds. Provides lasting moisture while protecting against free radical damage and promoting healthy skin renewal.",
     price: "$20",
     size: "3 oz",
-    image: moisturizerImage,
+    image: "/lovable-uploads/defe8c20-1b9f-4b9a-b127-8761642f38a9.png",
     benefits: ["24-hour hydration", "Anti-aging properties", "Skin barrier repair", "Natural caffeine boost"],
     featured: false
   }

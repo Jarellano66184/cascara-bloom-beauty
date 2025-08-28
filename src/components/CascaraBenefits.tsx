@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import cascaraImage from "@/assets/cascara-cherries.jpg";
+// Using actual coffee cherries from the uploaded image
 
 const benefits = [
   {
@@ -53,8 +53,8 @@ const CascaraBenefits = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-accent rounded-2xl blur-3xl opacity-20"></div>
               <img 
-                src={cascaraImage} 
-                alt="Fresh cascara coffee cherries" 
+                src="/lovable-uploads/63656793-7a31-43e6-b91e-424809b777bb.png" 
+                alt="Fresh cascara coffee cherries and Redëm product" 
                 className="relative z-10 w-full rounded-2xl shadow-elevated"
               />
             </div>

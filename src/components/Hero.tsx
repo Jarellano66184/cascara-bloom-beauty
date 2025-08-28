@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-image.jpg";
+// Using the actual Redëm product image from uploads
 
 const Hero = () => {
   return (
@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        style={{ backgroundImage: `url(/lovable-uploads/63656793-7a31-43e6-b91e-424809b777bb.png)` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60"></div>
       </div>
@@ -55,7 +55,7 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-accent rounded-full blur-3xl opacity-20"></div>
             <img 
-              src={heroImage} 
+              src="/lovable-uploads/9a7c204c-6d89-4c0a-a065-b999a49ab656.png" 
               alt="Natural cascara skincare products" 
               className="relative z-10 rounded-2xl shadow-elevated"
             />
