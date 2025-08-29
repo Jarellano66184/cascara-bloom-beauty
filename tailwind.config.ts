@@ -26,8 +26,7 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))',
-					hover: 'hsl(var(--primary-hover))'
+					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -53,12 +52,6 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				/* Custom Redeem brand colors */
-				cascara: 'hsl(var(--cascara-red))',
-				forest: 'hsl(var(--forest-green))',
-				earth: 'hsl(var(--earth-brown))',
-				cream: 'hsl(var(--cream))',
-				sage: 'hsl(var(--sage-green))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -95,19 +88,7 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out',
-				'float': 'float 6s ease-in-out infinite',
-				'fade-in': 'fadeIn 0.8s ease-out forwards',
-				'slide-up': 'slideUp 0.8s ease-out forwards'
-			},
-			fontFamily: {
-				sans: ['Inter', 'system-ui', 'sans-serif'],
-				serif: ['Playfair Display', 'Georgia', 'serif']
-			},
-			backgroundImage: {
-				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-product': 'var(--gradient-product)',
-				'gradient-accent': 'var(--gradient-accent)'
+				'accordion-up': 'accordion-up 0.2s ease-out'
 			}
 		}
 	},
